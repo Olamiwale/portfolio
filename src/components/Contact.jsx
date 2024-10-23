@@ -13,53 +13,70 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setFormData(' ')
+    alert('submitted')
 
     console.log(formData);
   };
 
   return (
-    <div className="mt-20 pt-20 flex justify-center">
-      <div className="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden md:max-w-4xl m-5 w-full">
-        <div className="w-full md:w-1/2 bg-gray-400 p-8 flex flex-col items-center justify-center">
+    <div className="mt-[150px] flex justify-center flex-col gap-8 items-center">
+
+      <h1 className="text-2xl  font-bold text-center uppercase">  Contact Me </h1>
+
+      <div className="flex max-md:flex-col flex-row md:max-w-4xl m-5 gap-5 w-full">
+        <div className="w-full rounded-lg md:w-1/2 border-2  p-8 flex flex-col items-center justify-center">
           <img
             src="https://via.placeholder.com/300x300.png"
             alt="Contact us"
-            className="rounded-full mb-6 w-48 h-48 object-cover"
+            className="rounded-full mb-6 w-64 h-64 object-cover"
           />
-          <h2 className="text-white text-2xl font-bold mb-4">Get in Touch</h2>
-          <p className="text-white mb-6">Follow us on social media</p>
-          <div className="flex space-x-4">
-            <a
-              href="#"
-              className="text-white hover:text-gray-200 transition-colors"
+          <h2 className=" text-2xl font-bold mb-4">Get in Touch</h2>
+          <p className="mb-6">Follow us on social media</p>
+
+          <div className="flex space-x-10 mb-5">
+           <a href="#"
+               className="text-white shadow-lg hover:text-gray-200 transition-colors"
             >
-              <i className="fab fa-facebook-f"></i>
+              <img img src="./github.png" className="w-8"></img>
             </a>
-            <a
-              href="#"
-              className="text-white hover:text-gray-200 transition-colors"
+           <a href="#"
+               className="text-white shadow-lg hover:text-gray-200 transition-colors"
             >
-              <i className="fab fa-twitter"></i>
+              <img img src="./linkdlin.png" className="w-8"></img>
             </a>
-            <a
-              href="#"
-              className="text-white hover:text-gray-200 transition-colors"
+           <a href="#"
+               className="text-white shadow-lg hover:text-gray-200 transition-colors"
             >
-              <i className="fab fa-instagram"></i>
+              <img img src="./X.png" className="w-8"></img>
             </a>
+
+           
+  
           </div>
+
+          <a href="www.whatsapp.com" className="w-full shadow-lg shadow-gray-300">
+             <button
+              type="submit"
+              className="w-full flex justify-center items-center gap-8  bg-green-600 text-white py-2 rounded-md hover:bg-green-500 transition-colors duration-300 uppercase font-semibold"
+            >
+             <span className="font-bold">Whatsapp </span>  
+             <img src="./whatapp.png" className="w-5" />
+            </button>
+          </a>
+
+         
         </div>
 
-        <div className="w-full md:w-1/2 p-8">
-          <h1 className="text-3xl font-bold mb-6 text-blue-600 text-center uppercase">
-            Contact Us
-          </h1>
+        <div className="w-full md:w-1/2 rounded-lg border-2 p-8">
+          
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
               <label className="block mb-1 font-medium text-gray-700">
                 Name
               </label>
               <input
+             
                 type="text"
                 name="name"
                 value={formData.name}
@@ -105,6 +122,7 @@ export default function Contact() {
             >
               Send Message
             </button>
+           
           </form>
         </div>
       </div>

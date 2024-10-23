@@ -10,7 +10,7 @@ import SkillLogo from './SkillLogo';
 
 export default function Skill({logo, title}) {
   return (
-    <div  className="h-screen justify-center items-center flex flex-col mt-20">
+    <div  className=" justify-center items-center flex flex-col mt-[150px]">
       <p>These are the tools i work with </p>
       <div className='flex flex-wrap justify-center gap-4 p-10'>
 

@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 export default function Home() {
   return (
     
-      <div className="h-screen justify-center items-center flex">
+      <div className=" h-screen justify-center items-center flex">
         <div>
           <div className="flex flex-col justify-center items-center">
-            <p className="text-[25px] md:text-[40px] lg:text-[50px] flex flex-col justify-center items-center font-bold p-4">
+            <p className="text-[20px] md:text-[40px] lg:text-[50px] flex flex-col justify-center items-center font-bold p-4">
               <span>
                 Hi, I'm <span>Paul </span>
               </span>
@@ -23,8 +23,8 @@ export default function Home() {
             </button>
           </Link>
 
-          <div className="mt-20">
-            <div className="flex justify-evenly items-center">
+          <div className="mt-20 ">
+            <div className="flex max-sm:justify-evenly items-center md:absolute md:left-20 lg:left-60 md:h-screen md:top-0 md:flex-col justify-center gap-10 ">
               <a
                 href="https://github.com/Olamiwale"
                 target="_blank"

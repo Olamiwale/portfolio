@@ -2,14 +2,14 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import Header from "./components/Header.jsx";
 
+
 export default function App() {
   return (
     <div>
       <Header />
-      <div className="px-20">
+      <div className="px-20 pb-20">
          <Outlet />
       </div>
-     
     </div>
   );
 }

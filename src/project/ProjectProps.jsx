@@ -2,32 +2,37 @@ import React from "react";
 
 export default function ProjectProps({ title, source, preview, image }) {
   return (
-  <div> 
+  
  
-    <div className="rounded-md space-x-5 m-4 p-2 group border-2">
-      <div>
+    <div className="rounded-sm space-x-5 m-4 p-2 group border-2 group">
+      <div className="flex justify-center items-center">
         <a href={"/"}>
           <div className="flex justify-center items-center group">
             <img
-              className="rounded-md h-[100px] w-[300px]"
+              className="rounded-md h-[100px] group-hover:opacity-10 w-[350px]"
               src={image} alt="/"/>
           </div>
         </a>
       </div>
 
-      <div className="flex justify-center py-4">
-        <p className="text-xl">{title}
-          </p></div>
+      <div className="flex justify-center opacity-10 group-hover:opacity-80 py-4">
+        <p className="text-xl">{title}</p>
+      </div>
 
-      <div className="flex justify-between text-md">
-       <button className=" border-2 py-1 px-2 rounded-sm"><a href={source}>Source Code</a>
-        </button> 
-       <button className="border-2 py-1 px-2 rounded-sm"><a href={preview}>Preview</a>
-        </button> 
+      <div className="flex justify-between opacity-5 group-hover:opacity-100">
+      
+        <a href={source} className="border-2 p-2" >Source code</a>
+      
+      
+        <a href={preview} className="border-2 p-2 ">Preview</a>
+       
        
         
       </div>
     </div>
-    </div>
+    
   );
 }
+
+
+
