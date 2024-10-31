@@ -33,7 +33,7 @@ export default function Project() {
       />
       <ProjectProps
       image={'/'}
-        title="Twiier clone"
+        title="Millenial Apperael Store"
         source="https://www.google.com"
         preview="https://www.yahoo.com"
       />
