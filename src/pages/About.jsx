@@ -5,7 +5,7 @@ import React from 'react'
 export default function About() {
   return (
 
-   <div className='bg-red-200 py-60 justify-center items-center max-w-[1000px] mx-auto md:grid grid-cols-3 p-5 '>
+   <div className='md:py-60 py-20 justify-center items-center max-w-[1000px] mx-auto md:grid grid-cols-3 p-5 '>
 
     <div className='md:col-span-2'>
       <h1 className="font-bold  text-3xl">About</h1>

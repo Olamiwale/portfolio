@@ -14,7 +14,7 @@ export default function Header() {
     <div className='sticky z-50 top-0 border-b-2 shadow-lg bg-gray-100'>
 
   
-    <div className='p-6 md:max-w-[1200px] flex m-auto justify-between items-center'>
+    <div className='p-5 md:max-w-[1200px] flex m-auto justify-between items-center'>
         <div className='uppercase font-semibold'>
           <img src='./myLogo.png' className='w-16 rounded-full
           ' />

@@ -5,7 +5,7 @@ import { logo } from '../data'
 export default function Home() {
   return (
     
-       <div className='flex h-screen justify-center items-center'>
+       <div className='flex h-screen justify-center bg-slate-100 items-center'>
           <div className='w-3/4 md:w-full'>
          <div>
           <div className="flex flex-col justify-center items-center">

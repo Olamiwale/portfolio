@@ -8,7 +8,7 @@ export default function Skill() {
 
   console.log(skillLogo)
   return (
-  <div className=' py-60 bg-red-300 max-w-[1000px] mx-auto p-5'>
+  <div className=' md:py-60 py-20 bg-slate-100 max-w-[1000px] mx-auto p-5'>
      <div className='flex flex-col'>       
         <p className='font-bold text-3xl pb-5'>Skills</p>
         <p className='font-semibold text-xl pb-10'>Technical Expertise & Core Skills</p>
