@@ -1,24 +1,94 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';;
+import React,{useState} from 'react';
+import { Link, animateScroll as scroll } from 'react-scroll';
+import { FaChevronDown } from "react-icons/fa6";
+import { FaChevronUp } from "react-icons/fa6";
+
+
 
 export default function Header() {
-const navigate = useNavigate();
+
+  const [nav, setNav] = useState(false);
+
 
   return (
-    <header className='fixed top-0 w-full justify-between lg:py-10 px-60  max-lg:px-20 py-10 bg-slate-600 text-white flex'>
-      <div>
-        Logo
-      </div>
-      <nav>
-        <ul className='flex max-lg:space-x-4 lg:space-x-16 '>
-          <li className='cursor-pointer' onClick={() => navigate('/')}>Home</li>
-          <li className='cursor-pointer'  onClick={() => navigate('/about')}>About</li>
-          <li className='cursor-pointer' onClick={()=>navigate('/skill')}>Skill</li>
-          <li className='cursor-pointer' onClick={() => navigate('/project')}>Project</li>
-          <li className='cursor-pointer' onClick={()=> navigate('/contact')}>Contact</li>
-        </ul>
-       
-      </nav>
-    </header>
+    <div className='sticky z-50 top-0 border-b-2 shadow-lg bg-gray-100'>
+
+  
+    <div className='p-6 md:max-w-[1200px] flex m-auto justify-between items-center'>
+        <div className='uppercase font-semibold'>
+          <img src='./myLogo.png' className='w-16 rounded-full
+          ' />
+        </div>
+
+        <div className='md:hidden cursor-pointer' onClick={()=>setNav(!nav)}>
+
+          {!nav ? <FaChevronUp size={20} /> : <FaChevronDown size={20} /> }
+        
+          
+        </div>
+
+        <nav className={nav ? 'max-md:pt-4 md:flex font-semibold md:space-x-12 flex max-md:absolute max-md:flex-col right-0 top-full max-md:space-y-10 max-md:bg-slate-300 max-md:w-full max-md:justify-center max-md:items-center cursor-pointer': 'hidden md:flex md:space-x-12 font-semibold'}>
+
+      <Link 
+       to="home"
+       activeClass="text-red-800"
+       onClick={() => setNav(!nav)}
+       className='max-md:border-b pb-5 w-full justify-center flex items-center cursor-pointer'
+       smooth={true}
+       duration={500}
+       spy={true}
+       offset={-80}>
+        Home
+      </Link>
+
+
+
+      <Link 
+      to="about" 
+      activeClass="text-red-800"
+      onClick={() => setNav(!nav)}
+      className='max-md:border-b pb-5 w-full justify-center flex items-center cursor-pointer'
+      smooth={true}
+      duration={500}
+      spy={true}
+      offset={-80}>
+        About
+      </Link>
+
+      <Link to="skill" 
+      activeClass="text-red-800"
+      onClick={() => setNav(!nav)}
+      className='max-md:border-b pb-5 w-full justify-center flex items-center cursor-pointer'
+      smooth={true}
+      duration={500}
+      spy={true}
+      offset={-80}>
+        Skills
+      </Link>
+
+      <Link to="project" activeClass="text-red-800"
+       onClick={() => setNav(!nav)}
+       className='max-md:border-b pb-5 w-full justify-center flex items-center cursor-pointer'
+       smooth={true}
+       duration={500}
+       spy={true}
+       offset={-80}>
+        Projects
+      </Link>
+      <Link to="contact" activeClass="text-red-800"
+       onClick={() => setNav(!nav)}
+       className='max-md:border-b pb-5 w-full justify-center flex items-center cursor-pointer'
+       smooth={true}
+       duration={500}
+       spy={true}
+       offset={-80}>
+        Contact
+      </Link>
+    </nav>
+    </div>  
+    </div>
   )
 }
+
+
+
