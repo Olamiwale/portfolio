@@ -12,7 +12,7 @@ export default function Project() {
 
           
         {projectData.map((item, id) => (
-  <div className='flex flex-col items-center group' key={item.id}>
+  <div key={id} className='flex flex-col items-center group' key={item.id}>
   
     <img
       src={item.img}
