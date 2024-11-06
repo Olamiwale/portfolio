@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className=" mt-[150px] justify-center lg:px-40 items-center">
+    <div className="mt-[3000px] justify-center lg:px-40 items-center">
        <h1 className="font-bold py-10">About Me</h1>
       <div className="grid md:grid-cols-2 gap-5">
        
