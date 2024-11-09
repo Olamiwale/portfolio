@@ -17,7 +17,7 @@ export const logo = [
     {
         url: './cv.png',
         name: 'github',
-        link: 'https://github.com/Olamiwale'
+        link: 'https://drive.google.com/drive/u/0/home?lfhs=2'
     }
 ];
 
@@ -73,10 +73,10 @@ export const skillLogo = [
 
 export const projectData = [ 
   {
-    img: './pro1.png',
-    name:'Project-1',
+    img: './project-1.png',
+    name:'Millennial Apparel',
     github: 'www.github.com',
-    preview: 'www.google.com'
+    preview: 'https://millennialapparel.netlify.app/'
   },
 
   {

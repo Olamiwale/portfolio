@@ -3,7 +3,7 @@ import { projectData } from '../data'
 
 export default function Project() {
   return (
-    <div className='md:py-60 py-20 items-center max-w-[1000px] mx-auto p-5 justify-center'>
+    <div className='md:py-60 py-20 bg-white items-center max-w-[1000px] mx-auto p-5 justify-center'>
      
         <p className='font-bold text-3xl pb-5 flex'>Project</p>
 
@@ -12,7 +12,7 @@ export default function Project() {
 
           
         {projectData.map((item, id) => (
-  <div key={id} className='flex flex-col items-center group' key={item.id}>
+  <div key={id} className='flex flex-col items-center group'>
   
     <img
       src={item.img}

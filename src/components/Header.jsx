@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useEffect, useState} from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
 import { FaChevronDown } from "react-icons/fa6";
 import { FaChevronUp } from "react-icons/fa6";
@@ -8,13 +8,32 @@ import { FaChevronUp } from "react-icons/fa6";
 export default function Header() {
 
   const [nav, setNav] = useState(false);
+  const [shadow, setShadow] = useState(false)
+
+  const showShadow = () => {
+    if (window.scrollY > 90) {
+      setShadow(true);
+    } else {
+      setShadow(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', showShadow);
+    return () => {
+      window.removeEventListener('scroll', showShadow);
+    };
+  }, []);
+
+
+
 
 
   return (
-    <div className='sticky z-50 top-0 border-b-2 shadow-lg bg-gray-100'>
+    <div className={`sticky z-50 top-0 bg-gray-100 ${shadow ? 'border-b-2 shadow-lg shadow-gray-400' : ''}`}>
 
   
-    <div className='p-5 md:max-w-[1200px] flex m-auto justify-between items-center'>
+    <div className='p-5 md:px-16 md:max-w-[1000px] flex m-auto justify-between items-center'>
         <div className='uppercase font-semibold'>
           <img src='./myLogo.png' className='w-16 rounded-full
           ' />
@@ -86,6 +105,8 @@ export default function Header() {
       </Link>
     </nav>
     </div>  
+
+
     </div>
   )
 }

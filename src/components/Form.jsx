@@ -46,11 +46,15 @@ export default function Form() {
                 <button className="bg-blue-600 p-3 w-full shadow-md rounded-md shadow-gray-500 hover:bg-blue-500 transition-all duration-500 uppercase font-semibold text-white">
                   send message
                 </button>
-                <button className="bg-green-600 shadow-md rounded-md shadow-gray-500 p-3 w-full hover:bg-green-500 transition-all duration-500 uppercase font-semibold text-white">
-                  Whatsapp
-                </button>
+                <div className="fixed bottom-[100px] right-0 bg-green-600 shadow-lg shadow-black  p-5 hover:bg-green-500 transition-all duration-500 rounded-full text-white">
+
+                  <a href='https://wa.me/+2347035489194?text=Hello%20there!'>
+                  <img src='./whatapp.png' className='w-10 rounded-full' />
+                  </a>
+                  
+                </div>
               </div>
             </div>
-          </form>
+          </form>  
   )
 }
