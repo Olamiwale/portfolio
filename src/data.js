@@ -72,13 +72,14 @@ export const skillLogo = [
 
 
 export const projectData = [ 
+
   {
     img: './project-1.png',
     name:'Millennial Apparel',
     github: 'www.github.com',
     preview: 'https://mapbyruby.netlify.app/'
   },
-
+                
   {
     img: './pro2.png',
     name:'Project-2',

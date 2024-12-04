@@ -175,10 +175,20 @@ export default function Form (){
           required
         />
      
-      <button className="bg-blue-600 p-3 w-full shadow-md rounded-md shadow-gray-500 hover:bg-blue-500 transition-all duration-500 uppercase font-semibold text-white" 
+      <button className="bg-blue-600 tracking-widest p-3 w-full shadow-md rounded-md shadow-gray-500 hover:bg-blue-500 transition-all duration-500 uppercase font-semibold text-white" 
                 type='submit'>
                   send message
                 </button> 
+
+              
+                  <a className="bg-green-500 text-center tracking-widest p-3 w-full shadow-md rounded-md shadow-gray-500 hover:bg-green-600 transition-all duration-500 uppercase font-semibold text-white items-center flex justify-center cursor-pointer gap-3" target="_blank"
+                  href="https://wa.me/+2347056881825?text=Hello%20there!" 
+                >
+                  <img src="./whatsapp.png"  className="w-6"/>
+                  Whatsapp
+                </a> 
+             
+      
                 </div>
     </form>
   );

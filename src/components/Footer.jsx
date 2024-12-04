@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="flex font-semibold space-x-10">
           <a
             href="https://www.linkedin.com/in/paul-ogunmakinju-9236b51a3/"
-            className="hover:underline cursor-pointer"
+            className="hover:underline tracking-wider cursor-pointer"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -20,19 +20,19 @@ export default function Footer() {
 
           <a
             href="https://web.facebook.com/ogunmakinju.olawale/"
-            className="hover:underline cursor-pointer"
+            className="hover:underline tracking-wider cursor-pointer"
             target="_blank"
             rel="noopener noreferrer"
           >
             Facebook
           </a>
-          <a href="https://x.com/Paulolawalee" className="hover:underline cursor-pointer" 
+          <a href="https://x.com/Paulolawalee" className="hover:underline tracking-wider cursor-pointer" 
           target="_blank"
           rel="noopener noreferrer"
           >
             X
           </a>
-          <a href="https://www.instagram.com/_olawalee_/" className="hover:underline cursor-pointer"
+          <a href="https://www.instagram.com/_olawalee_/" className="hover:underline tracking-wider cursor-pointer"
             target="_blank"
             rel="noopener noreferrer">
             Instagram

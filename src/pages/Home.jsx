@@ -16,7 +16,7 @@ export default function Home() {
                 A Full stack Developer
               </span>
             </p>
-            <p className="md:px-8 text-xl text-center lg:px-20">
+            <p className="md:px-8 text-xl tracking-wider text-center lg:px-20">
               I'm a fullstack developer specializing in building and designing
               exceptional digital experience.
             </p>
