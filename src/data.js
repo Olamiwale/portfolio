@@ -75,7 +75,7 @@ export const projectData = [
 
   {
     img: './project-1.png',
-    name:'Millennial Apparel',
+    name:'Mapbyruby Fashion Store',
     github: 'www.github.com',
     preview: 'https://mapbyruby.netlify.app/'
   },
