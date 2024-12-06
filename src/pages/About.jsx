@@ -10,11 +10,11 @@ export default function About() {
     <div className='md:col-span-2'>
       <h1 className="font-bold  text-3xl">About</h1>
       <h2 className="py-4 font-semibold text-xl">Who I Am?</h2>
-      <p className="tracking-wider leading-10 md:w-[500px] mt-10">
+      <p className="tracking-wider mb-10 leading-10 md:w-[500px] mt-10">
             I'm a frontend developer, currently expanding my skills to include  backend development. I specialize in crafting engaging user experiences using technologies such as React.js,  Next.js, Vue.js, HTML5, CSS3, and TailwindCSS.Additionally, I have proficiency in backend technologies like Node.js and Solidity. Throughout my
       </p>
       
-      <button className="bg-blue-700 p-3 text-white uppercase mt-5 font-bold tracking-wider first-line:">Check out my projects
+      <button className="bg-blue-800 text-white p-4 md:w-full font-bold uppercase transition duration-500 hover:bg-blue-700 tracking-widest rounded-lg">Check out my projects
       </button>
 
 

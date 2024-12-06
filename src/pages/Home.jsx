@@ -26,7 +26,7 @@ export default function Home() {
 
          
            
-             <button className="bg-blue-800 text-white p-4 w-1/2 font-bold uppercase transition duration-500 hover:bg-blue-700 tracking-widest rounded-lg">
+             <button className="bg-blue-800 text-white p-4 md:w-1/2 w-full font-bold uppercase transition duration-500 hover:bg-blue-700 tracking-widest rounded-lg">
               Contact me
             </button>
           

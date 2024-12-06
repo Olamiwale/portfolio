@@ -7,12 +7,12 @@ export default function Project() {
      
         <p className='font-bold text-3xl pb-5 flex'>Project</p>
 
-        <div className='px-5 grid gap-5 md:grid-cols-2 justify-center items-center'>
+        <div className='px-5 grid gap-10 md:grid-cols-2 justify-center items-center'>
 
 
           
         {projectData.map((item, id) => (
-  <div key={id} className='flex flex-col items-center group'>
+  <div key={id} className='flex flex-col p-2 items-center shadow-lg shadow-gray-900 group'>
   
     <img
       src={item.img}
@@ -25,10 +25,10 @@ export default function Project() {
       <p className='py-2 font-semibold'>{item.name}</p> 
 
       <div className='flex space-x-5'>
-        <a href={item.preview} className='flex justify-center items-center uppercase text-[10px] hover:underline font-semibold rounded-md'>
+        <a href={item.preview} className='flex justify-center items-center uppercase text-[10px] hover:underline font-semibold rounded-md' target='_blank'>
           Preview
         </a> 
-        <a href={item.github} className='flex justify-center items-center uppercase text-[10px] hover:underline font-semibold'>
+        <a href={item.github} className='flex justify-center items-center uppercase text-[10px] hover:underline font-semibold' target='_blank'>
           GitHub
         </a> 
       </div>
