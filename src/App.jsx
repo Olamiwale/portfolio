@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Project from './pages/Project';
 import Contact from './pages/Contact'
+import Certification from './pages/Certification'
 
 
 
@@ -29,6 +30,9 @@ export default function App() {
         </Element>
         <Element name="project">
           <Project />
+        </Element>
+        <Element name="certification">
+          <Certification />
         </Element>
         <Element name="contact">
           <Contact />
