@@ -5,14 +5,14 @@ export default function Project() {
   return (
     <div className='md:py-60 py-20 bg-gray items-center p-5 justify-center'>
      
-        <p className='font-bold text-3xl pb-5 flex'>Project</p>
+        <p className='font-bold text-3xl pb-5 flex'>Certifications</p>
 
         <div className='px-5 gap-10 flex flex-row overflow-scroll  justify-center items-center'>
 
 
           
         {certifications.map((item, id) => (
-  <div key={id} className='flex flex-col p-2 items-center shadow-lg shadow-gray-900 group'>
+  <div key={id} className='flex flex-col py-10 items-center shadow-lg shadow-gray-900 group'>
   
     <img
       src={item.img}
@@ -35,10 +35,7 @@ export default function Project() {
     </div> 
   </div>
 ))}
-
-          
-
-         
+   
         </div>
    
     </div>
