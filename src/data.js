@@ -105,47 +105,27 @@ export const projectData = [
 
 
 export const certifications = [ 
+               
+                
+  {
+    img: './certification/Cisco-ICC-2024.png',
+    name:'Introduction to Cybersecurity',
+    link: 'https://mapbyruby.netlify.app/'
+  },
+                
+  {
+    img: './certification/Cisco-ICC-2024.png',
+    name:'Introduction to Cybersecurity',
+    link: 'https://mapbyruby.netlify.app/'
+  },
+  {
+    img: './certification/Cisco-ICC-2024.png',
+    name:'Introduction to Cybersecurity',
+    link: 'https://mapbyruby.netlify.app/'
+  },
+                
 
-  {
-    img: './certification/Cisco-ICC-2024.png',
-    name:'Introduction to Cybersecurity',
-    link: 'https://mapbyruby.netlify.app/'
-  },
-                
-  {
-    img: './certification/Cisco-ICC-2024.png',
-    name:'Introduction to Cybersecurity',
-    link: 'https://mapbyruby.netlify.app/'
-  },
-                
-  {
-    img: './certification/Cisco-ICC-2024.png',
-    name:'Introduction to Cybersecurity',
-    link: 'https://mapbyruby.netlify.app/'
-  },
-                
-  {
-    img: './certification/Cisco-ICC-2024.png',
-    name:'Introduction to Cybersecurity',
-    link: 'https://mapbyruby.netlify.app/'
-  },
-  {
-    img: './certification/Cisco-ICC-2024.png',
-    name:'Introduction to Cybersecurity',
-    link: 'https://mapbyruby.netlify.app/'
-  },
-                
-  {
-    img: './certification/Cisco-ICC-2024.png',
-    name:'Introduction to Cybersecurity',
-    link: 'https://mapbyruby.netlify.app/'
-  },
-                
-  {
-    img: './certification/Cisco-ICC-2024.png',
-    name:'Introduction to Cybersecurity',
-    link: 'https://mapbyruby.netlify.app/'
-  },
+
                 
  
                 

@@ -18,7 +18,7 @@ export default function Home() {
             </p>
             <p className="md:px-8 text-xl tracking-wider text-center lg:px-20">
               I'm a fullstack developer specializing in building and designing
-              exceptional digital experience.
+              exceptional digital experience. This is testing to know how private github work.
             </p>
           </div>
 
