@@ -11,7 +11,7 @@ export default function About() {
       <h1 className="font-bold  text-3xl">About</h1>
       <h2 className="py-4 font-semibold text-xl">Who I Am?</h2>
       <p className="tracking-wider mb-10 leading-10 md:w-[500px] mt-10">
-            I'm a frontend developer, currently expanding my skills to include  backend development and microsoft azure. I specialize in crafting engaging user experiences using technologies such as React.js,  Next.js, Vue.js, HTML5, CSS3, and TailwindCSS.Additionally, I have proficiency in backend technologies like Node.js and Solidity. Throughout my
+            I'm a frontend developer, currently expanding my skills to include  00000000000000000000000000000000000000000000000000008989888888888888888888backend development and microsoft azure. I specialize in crafting engaging user experiences using technologies such as React.js,  Next.js, Vue.js, HTML5, CSS3, and TailwindCSS.Additionally, I have proficiency in backend technologies like Node.js and Solidity. Throughout my
       </p>
       
       <button className="bg-blue-800 text-white p-4 md:w-full font-bold uppercase transition duration-500 hover:bg-blue-700 tracking-widest rounded-lg">Check out my projects
