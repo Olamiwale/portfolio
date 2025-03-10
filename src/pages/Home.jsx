@@ -13,12 +13,12 @@ export default function Home() {
             <p className="text-[25px] md:text-[40px] lg:text-[50px] flex flex-col justify-center items-center font-bold p-4">
               <span className='orange_gradient'>Hi, I'm Paul </span>
               <span className=" orange_gradient custom-text text-center text-[2rem] lg:text-[4rem] md:text-[3rem] ">
-                A Full stack Developer. This a testing stage using Azure StaticWebApp
+                A Full stack Developer
               </span>
             </p>
             <p className="md:px-8 text-xl tracking-wider text-center lg:px-20">
               I'm a fullstack developer specializing in building and designing
-              exceptional digital experience. This is testing to know how private github work.
+              exceptional digital experience
             </p>
           </div>
 

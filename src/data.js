@@ -26,12 +26,24 @@ export const logo = [
 export const skillLogo = [
    
     {
-      url:'./asset/aws.png',
-      name: 'AW cloud'  
+      url:'./asset/azure.png',
+      name: 'Azure'  
+    },
+    {
+      url:'./asset/docker.png',
+      name: 'Docker'  
+    },
+    {
+      url:'./asset/kubernetes.png',
+      name: 'Kubernetes'  
+    },
+    {
+      url:'./asset/csharp.png',
+      name: 'C sharp'  
     },
     {
       url:'./asset/css.png',
-      name: 'Css'  
+      name: 'CSS'  
     },
     {
       url:'./asset/firebase.png',
@@ -108,18 +120,18 @@ export const certifications = [
                
                 
   {
-    img: './certification/Cisco-ICC-2024.png',
-    name:'Introduction to Cybersecurity',
-    link: 'https://mapbyruby.netlify.app/'
+    img: './backCert.png',
+    name:'Backend Development and API',
+    link: 'https://www.freecodecamp.org/certification/fcc28953014-2886-41b1-90f8-194c9bd31599/back-end-development-and-apis'
   },
                 
   {
-    img: './certification/Cisco-ICC-2024.png',
+    img: './pro2.png',
     name:'Introduction to Cybersecurity',
     link: 'https://mapbyruby.netlify.app/'
   },
   {
-    img: './certification/Cisco-ICC-2024.png',
+    img: './pro2.png',
     name:'Introduction to Cybersecurity',
     link: 'https://mapbyruby.netlify.app/'
   },
