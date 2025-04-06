@@ -3,11 +3,11 @@ import { projectData } from '../data'
 
 export default function Project() {
   return (
-    <div className='md:py-60 py-20 bg-white items-center max-w-[1000px] mx-auto p-5 justify-center'>
+    <div className='md:py-60 py-20 bg-white items-center max-w-[1000px] mx-auto px-10 justify-center'>
      
-        <p className='font-bold text-3xl pb-5 flex'>Project</p>
+        <p className='font-bold text-3xl mb-20 flex'>Project</p>
 
-        <div className='px-5 grid gap-10 md:grid-cols-2 justify-center items-center'>
+        <div className='grid gap-10 md:grid-cols-2 justify-center items-center'>
 
 
           

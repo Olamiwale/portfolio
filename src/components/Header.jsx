@@ -94,6 +94,17 @@ export default function Header() {
        offset={-80}>
         Projects
       </Link>
+
+      <Link to="certification" activeClass="text-red-800"
+       onClick={() => setNav(!nav)}
+       className='max-md:border-b pb-5 w-full justify-center flex items-center cursor-pointer'
+       smooth={true}
+       duration={500}
+       spy={true}
+       offset={-80}>
+        Certification
+      </Link>
+
       <Link to="contact" activeClass="text-red-800"
        onClick={() => setNav(!nav)}
        className='max-md:border-b pb-5 w-full justify-center flex items-center cursor-pointer'

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 
 
@@ -13,9 +14,31 @@ export default function About() {
       <p className="tracking-wider mb-10 leading-10 md:w-[500px] mt-10">
             I'm a frontend developer, currently expanding my skills to include backend development and microsoft azure. I specialize in crafting engaging user experiences using technologies such as React.js,  Next.js, Vue.js, HTML5, CSS3, and TailwindCSS.Additionally, I have proficiency in backend technologies like Node.js and Solidity. Throughout my
       </p>
+
       
-      <button className="bg-blue-800 text-white p-4 md:w-full font-bold uppercase transition duration-500 hover:bg-blue-700 tracking-widest rounded-lg">Check out my projects
-      </button>
+
+       
+
+          <Link
+          to="certification" 
+            activeClass="text-red-800"
+            smooth={true}
+            duration={500}
+            spy={true}
+            offset={-80}
+            className='w-full flex justify-center md:justify-start'
+          >
+            <button className='bg-blue-600 text-xl uppercase tracking-widest font-semibold p-4 w-[90%] text-white rounded-md'> 
+           projects </button>
+          </Link>
+         
+    
+       
+        
+     
+    
+      
+
 
 
     </div>

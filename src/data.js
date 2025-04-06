@@ -86,7 +86,7 @@ export const skillLogo = [
 export const projectData = [ 
 
   {
-    img: './project-1.png',
+    img: './project_1.png',
     name:'Mapbyruby Fashion Store',
     github: 'www.github.com',
     preview: 'https://mapbyruby.netlify.app/'
@@ -120,18 +120,24 @@ export const certifications = [
                
                 
   {
+    img: './cert_4.png',
+    name:'Azure Administrator Associate',
+    link: 'https://learn.microsoft.com/en-us/users/paulolawale-6221/credentials/54d8c2aad30b48dc?ref=https%3A%2F%2Fwww.linkedin.com%2F'
+  },
+
+  {
     img: './backCert.png',
     name:'Backend Development and API',
     link: 'https://www.freecodecamp.org/certification/fcc28953014-2886-41b1-90f8-194c9bd31599/back-end-development-and-apis'
   },
                 
   {
-    img: './pro2.png',
+    img: './cert_2.png',
     name:'Introduction to Cybersecurity',
-    link: 'https://mapbyruby.netlify.app/'
+    link: 'https://www.credly.com/badges/7512be81-fc6b-4d50-ac31-f0acc9e267f2/public_url'
   },
   {
-    img: './pro2.png',
+    img: './cert_3.png',
     name:'Introduction to Cybersecurity',
     link: 'https://mapbyruby.netlify.app/'
   },
